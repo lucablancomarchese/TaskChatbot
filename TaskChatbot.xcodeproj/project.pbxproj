@@ -11,6 +11,8 @@
 		7AE5E7562B968D150010D6D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5E7552B968D150010D6D8 /* ContentView.swift */; };
 		7AE5E7582B968D160010D6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5E7572B968D160010D6D8 /* Assets.xcassets */; };
 		7AE5E75B2B968D160010D6D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5E75A2B968D160010D6D8 /* Preview Assets.xcassets */; };
+		7AE5E7672B968F770010D6D8 /* TaskChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5E7662B968F770010D6D8 /* TaskChatView.swift */; };
+		7AE5E7692B96903B0010D6D8 /* TaskChatViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5E7682B96903B0010D6D8 /* TaskChatViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7AE5E7552B968D150010D6D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AE5E7572B968D160010D6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE5E75A2B968D160010D6D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AE5E7662B968F770010D6D8 /* TaskChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskChatView.swift; sourceTree = "<group>"; };
+		7AE5E7682B96903B0010D6D8 /* TaskChatViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskChatViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		7AE5E7522B968D150010D6D8 /* TaskChatbot */ = {
 			isa = PBXGroup;
 			children = (
-				7AE5E7532B968D150010D6D8 /* TaskChatbotApp.swift */,
-				7AE5E7552B968D150010D6D8 /* ContentView.swift */,
+				7AE5E7612B968D2C0010D6D8 /* Views */,
+				7AE5E7642B968D520010D6D8 /* ViewModels */,
+				7AE5E7652B968DB80010D6D8 /* Other */,
 				7AE5E7572B968D160010D6D8 /* Assets.xcassets */,
 				7AE5E7592B968D160010D6D8 /* Preview Content */,
 			);
@@ -65,6 +70,31 @@
 				7AE5E75A2B968D160010D6D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AE5E7612B968D2C0010D6D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5E7552B968D150010D6D8 /* ContentView.swift */,
+				7AE5E7662B968F770010D6D8 /* TaskChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE5E7642B968D520010D6D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5E7682B96903B0010D6D8 /* TaskChatViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7AE5E7652B968DB80010D6D8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5E7532B968D150010D6D8 /* TaskChatbotApp.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE5E7692B96903B0010D6D8 /* TaskChatViewViewModel.swift in Sources */,
 				7AE5E7562B968D150010D6D8 /* ContentView.swift in Sources */,
+				7AE5E7672B968F770010D6D8 /* TaskChatView.swift in Sources */,
 				7AE5E7542B968D150010D6D8 /* TaskChatbotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskChatbot/Preview Content\"";
+				DEVELOPMENT_TEAM = FDHH75F97U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskChatbot/Preview Content\"";
+				DEVELOPMENT_TEAM = FDHH75F97U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
