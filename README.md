@@ -7,6 +7,6 @@ In this project, I want to implement an AI that converts user input messages int
 - `Swift`
 - `SwiftUI`
 
-![Bildbeschreibung](![image](https://github.com/lucablancomarchese/TaskChatbot/assets/118488078/37dd7593-b3b5-499c-ad14-c86f5bf55162)){:width="300"}
+![image](https://github.com/lucablancomarchese/TaskChatbot/assets/118488078/37dd7593-b3b5-499c-ad14-c86f5bf55162)
 
 
